@@ -1,0 +1,63 @@
+body {
+  background-color: #1E1F26; /* Dark navy */
+  font-family: 'Arial', sans-serif;
+  color: #ECECEC; /* Light grey text */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  color: #ECECEC; /* Light grey */
+  font-size: 1.2em; /* Slightly smaller for better readability */
+  line-height: 1.6; /* Improved line height for readability */
+  margin: 0;
+  padding: 20px 0;
+}
+h1 :hover{
+  transform: scale(2);
+}
+
+h2 {
+  text-align: center;
+  color: #FFD700; /* Golden color for the name */
+  font-size: 2em;
+  margin-top: 20px;
+  text-shadow: #1E1F26;
+}
+
+#ball {
+  background-color: #FF6F61; /* Warm coral */
+  text-align: center;
+  line-height: 1.8;
+  color: #1E1F26; /* Dark navy text */
+  font-weight: bold;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 15px; 
+  max-width: 800px; 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+#img {
+  width: 450px;      
+  height: auto;     
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px; /* Add rounded corners to image */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Image shadow */
+}
+
+/* Add a smooth hover effect to the image */
+#img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+
+fieldset {
+  border: none; 
+  padding: 0 20px;
+}
