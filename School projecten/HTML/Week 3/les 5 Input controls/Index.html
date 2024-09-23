@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input controls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+<fieldset id="input controls">
+
+    <legend> input controls</legend>
+    <label for="email">wat is je e-mailadres</label>
+    <input type="email" name="email" placeholder="email" required/>
+</fieldset>
+<fieldset>
+    <label for="Wachtwoord">Wachtwoord</label>
+    <input type="Wachtwoord" name="Wachtwoord" placeholder="Wachtwoord" required/>
+</fieldset>
+<fieldset>
+    <label for="naam">wat is je naam</label>
+    <input type="text" id="naam" name="naam" size="30" required>
+</fieldset>
+<fieldset>
+    <label for="toetjes">kies een of meer toetjes</label><br>
+    <input type="checkbox" name="toetje1" value="cheesecake">
+    <label for="toetje1">cheesecake</label><br>
+    <input type="checkbox" name="toetje2" value="fruit">
+    <label for="toetje2">fruit</label><br>
+    <input type="checkbox" name="toetje3" value="tiramisu">
+    <label for="toetje3">tiramisu</label><br>
+</fieldset>
+<fieldset>
+    <label for="woonplaats">wat is je woonplaats</label><br>
+    <select name="woonplaats" id="">
+    <option value="woonplaats"></option>
+    <option value="Amsterdam">Amsterdam</option>
+    <option value="Rotterdam">Rotterdam</option>
+    <option value="Utrecht">Utrecht</option>
+    </select>
+    <br>
+</fieldset>
+<fieldset>
+    <label for="land">kies een land uit de lijst</label>
+    <input list="landen" name="land" id="land"/>
+    <datalist id="landen">
+        <option value="Afghanistan"></option>
+        <option value="Albania"></option>
+        <option value="Algeria"></option>
+        <option value="Bahrain"></option>
+        <option value="Bangladesh"></option>
+</fieldset>
+<label for="gerecht">Favoriete gerecht</label><br>
+   <input type="radio" name="gerecht" value="lasange">
+   <label for="lasange">lasange</label><br>
+   <input type="radio" name="gerecht" value="pasta">
+   <label for="pasta">pasta</label><br>
+   <input type="radio" name="gerecht" id="wraps">
+   <label for="wraps">wraps</label>
+</fieldset>
+<fieldset>
+    <label for="datum">Geboortedatum</label>
+    <input required type="">
+</fieldset>
+    </form>
+</body>
+</html>
